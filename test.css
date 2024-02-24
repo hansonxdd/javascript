@@ -1,0 +1,42 @@
+/* universal selector */
+* {
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 22px;
+}
+
+body {
+    font-size: 30px;
+    background-color: black;
+    color:white;
+    border: 3px solid black;
+
+}
+
+p {
+    color: blue;
+
+}
+
+p span {
+    text-transform: uppercase;
+    background-color: yellow;
+}
+
+/* nested */
+h1, h2 {
+    color: white;
+}
+
+/* class name */
+.gray {
+    color: gray;
+    font-family: sans-serif;
+}
+/* 
+id name */
+#italic {
+    font-style: italic;
+}
